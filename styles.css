@@ -1,0 +1,68 @@
+nav{
+    color: lightcoral;
+    background-color: rgb(254, 207, 65) ;
+	margin: 0;
+	top: 5rem;
+}
+
+nav ul{
+	align-items:center;
+	text-align: center;
+	}
+	
+nav ul li{
+	display: inline-block;
+	padding: 15px 1.25rem;
+}
+
+nav a {
+	color:aqua;
+	text-align: center;
+	padding: 0 0.625rem;
+	text-transform: uppercase;
+	font-weight: 0.625rem;
+	display: inline-block;
+}
+
+a:hover{
+	background-color: beige;
+	}
+
+.usually a,.bilibili a{
+	color: #FF8899;
+	text-decoration: none;
+}
+
+.bilibili ul li{
+	display: inline-block;
+}
+
+.bilibili-video{
+	display: flex;
+	justify-content: center;
+}
+
+.bilibili{
+	background:url("picture/国风2233娘-74043776-0.jpg");
+	background-size: cover;
+	background-position: right top;
+}
+
+.capsule{
+	width: 300px;
+	height: 50px;
+	border-radius: 8px;
+	background-color:#FFDD88 ;
+	text-align: center;
+	margin: 5px;
+}
+
+.capsule span{
+	line-height: 50px;
+}
+
+.capsule:hover{
+background-color:#77BBDD ;
+position: relative;
+bottom: 5px;
+}
