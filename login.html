@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>登入信息</legend>
+                <label>用户名:<input type="text" name="name"></label>
+                <label>	邮箱:<input type="text" name="e-mail"></label>
+                <label>电话:<input type="number" name="tel-phone"></label>
+                <label>密码:<input type="password" name="password"></label>
+            </fieldset>
+
+            <p><br></p>
+
+            <fieldset>
+                <legend>额外信息</legend>
+                <label>年龄:<input type="number" name="age"></label>
+                <label>性别:
+                    <select id="sex">
+                        <optgroup label="常见">
+                            <option value="male">男</option>
+                            <option value="female">女</option>
+                            <option value="other">other</option>
+                        </optgroup>
+                        <optgroup label="有点怪">
+                            <option>小男娘</option>
+                            <option>扶她</option>
+                        </optgroup>
+                        <optgroup label="非常怪">
+                            <option>丧尸</option>
+                        </optgroup>
+                        <optgroup label="???">
+                            <option>武装坦克</option>
+                            <option>武装直升机</option>
+                            <option>宇宙飞船</option>
+                        </optgroup>
+                    </select>
+                </label>
+            </fieldset>
+            <br>
+            <br>
+            <button type="submit">确认登陆</button>
+	    </form>
+    </body>
+</html>
