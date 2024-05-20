@@ -16,7 +16,7 @@ nav ul li{
 }
 
 nav a {
-	color:aqua;
+	color:#77BBDD;
 	text-align: center;
 	padding: 0 0.625rem;
 	text-transform: uppercase;
@@ -51,6 +51,7 @@ a:hover{
 .capsule{
 	width: 300px;
 	height: 50px;
+	border: solid 2px #7899CC;
 	border-radius: 8px;
 	background-color:#FFDD88 ;
 	text-align: center;
